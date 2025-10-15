@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tech Book Club - A fictional book club website for curious minds. Discover curated reads, join vibrant discussions, and level up your skills one chapter at a time. Built with HTML5 and CSS3"
+    />
+    <meta
+      name="keywords"
+      content="tech book club, curated reading, developer community, learn to code, tech discussions, programming books"
+    />
+    <meta name="author" content="John Prosper" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts | Martian Mono & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Frontend Mentor | Tech book club</title>
+  </head>
+  <body>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <!-- Header Subsection -->
+          <header class="header">
+            <a href="/">
+              <img
+                src="/images/logo.svg"
+                alt="Tech Book Club logo"
+                class="header__logo"
+              />
+            </a>
+          </header>
+          <!-- End of Header Subsection -->
+
+          <div class="hero__flex">
+            <div class="hero__content">
+              <h1 class="hero__title">Join the ultimate tech book club</h1>
+              <p class="hero__description">
+                Turn your reading time into learning time with fellow tech
+                enthusiasts. Get curated recommendations, join vibrant
+                discussions, and level up your skills one chapter at a time.
+              </p>
+
+              <a class="button hero__cta" href="#membership-options">
+                Review Membership Options
+                <img
+                  src="/images/icon-arrow-down.svg"
+                  alt="Arrow pointing down"
+                  class="button__icon"
+                />
+              </a>
+
+              <div class="hero__community">
+                <img
+                  src="/images/image-avatars.webp"
+                  alt="Community member avatars"
+                  class="hero__community-avatars"
+                />
+                <div class="hero__community-flex">
+                  <ul class="hero__community-rating">
+                    <li>
+                      <img
+                        src="/images/icon-star.svg"
+                        alt="Star icon"
+                        class="hero__community-star"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="/images/icon-star.svg"
+                        alt="Star icon"
+                        class="hero__community-star"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="/images/icon-star.svg"
+                        alt="Star icon"
+                        class="hero__community-star"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="/images/icon-star.svg"
+                        alt="Star icon"
+                        class="hero__community-star"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="/images/icon-star.svg"
+                        alt="Star icon"
+                        class="hero__community-star"
+                      />
+                    </li>
+                  </ul>
+                  <span class="hero__community-text">
+                    200+ developers joined already
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__image-wrapper">
+              <img
+                src="/images/image-hero-desktop.webp"
+                alt="People reading together at a tech book club meeting"
+                class="hero__image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Hero Section -->
+
+      <!-- Features Section -->
+      <section class="features">
+        <div class="container">
+          <!-- Read Together Item Subsection -->
+          <div class="features__item">
+            <img
+              src="/images/image-read-together-desktop.webp"
+              alt="People reading together in a group setting"
+              class="features__image"
+            />
+            <div class="features__content">
+              <h2 class="features__title">Read together, grow together</h2>
+              <ul class="features__list">
+                <li class="features__list-item">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="features__check"
+                  />
+                  Monthly curated tech reads selected by industry experts
+                </li>
+                <li class="features__list-item">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="features__check"
+                  />
+                  Virtual and in-person meetups for deep-dive discussions
+                </li>
+                <li class="features__list-item">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="features__check"
+                  />
+                  Early access to new tech book releases
+                </li>
+                <li class="features__list-item">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="features__check"
+                  />
+                  Author Q&A sessions with tech thought leaders
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End of Read Together Item Subsection -->
+
+          <!-- Not Average Item Subsection -->
+          <div class="features__item">
+            <div class="features__content">
+              <h2 class="features__title">
+                Not your average book
+                <span class="features__highlight">club</span>
+              </h2>
+              <p class="features__description">
+                Connect with a community that speaks your language - from
+                <span class="features__language-highlight">Python</span> to
+                <span class="features__language-highlight">Typescript</span>
+                and everything in between. Our discussions blend technical depth
+                with practical applications.
+              </p>
+              <img
+                src="/images/logos-tech.svg"
+                class="features__tech-logos"
+                alt="Programming language and technology logos"
+              />
+            </div>
+
+            <img
+              src="/images/image-not-average-desktop.webp"
+              alt="Book club members discussing technology books"
+              class="features__image"
+            />
+          </div>
+          <!-- End of Not Average Item Subsection -->
+        </div>
+      </section>
+      <!-- End of Features Section -->
+
+      <!-- Membership Process Section -->
+      <section class="membership__process container">
+        <h2 class="membership__process-title">Your tech reading journey</h2>
+        <ul class="membership__process-steps" role="list">
+          <li class="membership__process-step">
+            <div class="membership__process-step-indicator">
+              <span class="membership__process-step-number">1</span>
+              <span class="membership__process-step-arrow">
+                <img
+                  src="/images/pattern-arrow.svg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </span>
+            </div>
+            <p class="membership__process-step-text">
+              Choose your membership tier
+            </p>
+          </li>
+          <li class="membership__process-step">
+            <div class="membership__process-step-indicator">
+              <span class="membership__process-step-number">2</span>
+              <span class="membership__process-step-arrow">
+                <img
+                  src="/images/pattern-arrow.svg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </span>
+            </div>
+            <p class="membership__process-step-text">
+              Get your monthly book selection
+            </p>
+          </li>
+          <li class="membership__process-step">
+            <div class="membership__process-step-indicator">
+              <span class="membership__process-step-number">3</span>
+              <span class="membership__process-step-arrow">
+                <img
+                  src="/images/pattern-arrow.svg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </span>
+            </div>
+            <p class="membership__process-step-text">
+              Join our discussion forums
+            </p>
+          </li>
+          <li class="membership__process-step">
+            <div class="membership__process-step-indicator">
+              <span class="membership__process-step-number">4</span>
+            </div>
+            <p class="membership__process-step-text">
+              Attend exclusive meetups
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- End of Membership Process Section -->
+
+      <!-- Membership Options Section -->
+      <section class="membership-options" id="membership-options">
+        <div class="container">
+          <h2 class="membership-options__title">Membership options</h2>
+
+          <ul class="membership-options__cards" role="list">
+            <!-- Starter Card Subsection -->
+            <li
+              class="membership-options__card membership-options__card--starter"
+            >
+              <h3 class="membership-options__tier">Starter</h3>
+              <div class="membership-options__pricing">
+                <div class="membership-options__price">$19</div>
+                <span class="membership-options__price-period">/month</span>
+              </div>
+              <ul class="membership-options__features" role="list">
+                <li class="membership-options__feature">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="membership-options__feature-icon"
+                    aria-hidden="true"
+                  />
+                  <span class="membership-options__feature-text"
+                    >1 book/month</span
+                  >
+                </li>
+                <li class="membership-options__feature">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="membership-options__feature-icon"
+                    aria-hidden="true"
+                  />
+                  <span class="membership-options__feature-text"
+                    >Online Forums</span
+                  >
+                </li>
+              </ul>
+              <a href="#" class="membership-options__button">Subscribe now</a>
+            </li>
+            <!-- End of Starter Card Subsection -->
+
+            <!-- Pro Card Subsection -->
+            <li class="membership-options__card--pro">
+              <h3 class="membership-options__tier">Pro</h3>
+              <div class="membership-options__pricing">
+                <div class="membership-options__price">$29</div>
+                <span class="membership-options__price-period">/month</span>
+              </div>
+              <ul class="membership-options__features" role="list">
+                <li class="membership-options__feature">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="membership-options__feature-icon"
+                    aria-hidden="true"
+                  />
+                  <span class="membership-options__feature-text"
+                    >2 books/month</span
+                  >
+                </li>
+                <li class="membership-options__feature">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="membership-options__feature-icon"
+                    aria-hidden="true"
+                  />
+                  <span class="membership-options__feature-text"
+                    >Virtual meetups</span
+                  >
+                </li>
+              </ul>
+              <a href="#" class="membership-options__button">Subscribe now</a>
+            </li>
+            <!-- End of Pro Card Subsection -->
+
+            <!-- Enterprise Card Subsection -->
+            <li
+              class="membership-options__card membership-options__card--enterprise"
+            >
+              <h3 class="membership-options__tier">Enterprise</h3>
+              <div class="membership-options__pricing">
+                <div class="membership-options__price">Custom</div>
+              </div>
+              <ul class="membership-options__features" role="list">
+                <li class="membership-options__feature">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="membership-options__feature-icon"
+                    aria-hidden="true"
+                  />
+                  <span class="membership-options__feature-text"
+                    >Team access</span
+                  >
+                </li>
+                <li class="membership-options__feature">
+                  <img
+                    src="/images/icon-check.svg"
+                    alt=""
+                    class="membership-options__feature-icon"
+                    aria-hidden="true"
+                  />
+                  <span class="membership-options__feature-text"
+                    >Private sessions</span
+                  >
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="membership-options__button membership-options__button--contact"
+                >Talk to us</a
+              >
+            </li>
+            <!-- End of Enterprise Card Subsection -->
+          </ul>
+        </div>
+      </section>
+      <!-- End of Membership Options Section -->
+
+      <!-- Testimonial Section -->
+      <section class="testimonial">
+        <div class="container">
+          <ul class="testimonial__rating">
+            <li>
+              <img
+                src="/images/icon-star.svg"
+                alt="Star icon"
+                class="testimonial__star"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/icon-star.svg"
+                alt="Star icon"
+                class="testimonial__star"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/icon-star.svg"
+                alt="Star icon"
+                class="testimonial__star"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/icon-star.svg"
+                alt="Star icon"
+                class="testimonial__star"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/icon-star.svg"
+                alt="Star icon"
+                class="testimonial__star"
+              />
+            </li>
+          </ul>
+
+          <h2 class="testimonial__content">
+            "This book club transformed my technical reading from a solitary
+            activity into an enriching community experience. The discussions are
+            gold!"
+          </h2>
+
+          <p class="testimonial__author-info">Sarah Chen, Software Architect</p>
+        </div>
+      </section>
+      <!-- End of Testimonial Section -->
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <h2 class="footer__cta-title">Ready to debug your reading list?</h2>
+
+            <a href="#membership-options" class="footer__cta">
+              REVIEW MEMBERSHIP OPTIONS
+              <img
+                src="/images/icon-arrow-up.svg"
+                alt="Arrow pointing up"
+                class="button__icon"
+              />
+            </a>
+
+            <div class="footer__community">
+              <img
+                src="/images/image-avatars.webp"
+                alt="Community member avatars"
+                class="footer__community-avatars"
+              />
+              <div class="footer__community-flex">
+                <ul class="footer__community-rating" role="list">
+                  <li>
+                    <img
+                      src="/images/icon-star.svg"
+                      alt="Star icon"
+                      class="footer__community-star"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-star.svg"
+                      alt="Star icon"
+                      class="footer__community-star"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-star.svg"
+                      alt="Star icon"
+                      class="footer__community-star"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-star.svg"
+                      alt="Star icon"
+                      class="footer__community-star"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-star.svg"
+                      alt="Star icon"
+                      class="footer__community-star"
+                    />
+                  </li>
+                </ul>
+                <span class="footer__community-text"
+                  >280+ developers joined already</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attribution Subsection -->
+        <section class="attribution">
+          <p class="attribution__text">
+            © <span id="current-year" class="attribution__year"></span> - Tech
+            Book Club
+          </p>
+
+          <div class="attribution__links">
+            <a href="#" class="footer__icon">
+              <img
+                src="/images/logo-bluesky.svg"
+                alt="Butterfly icon"
+                class="attribution__butterfly"
+              />
+            </a>
+            <a href="#" class="footer__icon">
+              <img
+                src="/images/logo-linkedin.svg"
+                alt="Linkedin icon"
+                class="attribution__linkedin"
+              />
+            </a>
+          </div>
+        </section>
+        <!-- End of Attribution Subsection -->
+      </footer>
+      <!-- End of Footer Section -->
+    </main>
+
+    <script>
+      // Current Year
+      const currentYearEl = document.getElementById("current-year");
+      if (currentYearEl) {
+        const currentYear = new Date().getFullYear();
+        currentYearEl.textContent = currentYear;
+      }
+    </script>
+  </body>
+</html>
