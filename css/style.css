@@ -39,27 +39,26 @@
   --space-lg: clamp(3rem, 6vw, 6rem);
   --space-xl: clamp(4rem, 8vw, 8rem);
 
-  /* Additional Variables (Preserving Original Values) */
   --button-width-base: 79%;
-  --button-padding-base: 1.1rem 0.9rem; /* Adjusted from 1.25rem 1rem to reduce slightly, within original range */
+  --button-padding-base: 1.1rem 0.9rem;
   --footer-cta-width-base: 90%;
-  --footer-cta-padding-base: 1.1rem 0.9rem; /* Adjusted from 1.25rem 0.9375rem to reduce slightly, within original range */
+  --footer-cta-padding-base: 1.1rem 0.9rem;
   --button-width-1025: 50%;
-  --button-padding-1025: 1.1rem 0.9rem; /* Adjusted from 1.25rem 1rem to reduce slightly, within original range */
+  --button-padding-1025: 1.1rem 0.9rem;
   --footer-cta-width-1025: 85%;
-  --footer-cta-padding-1025: 1.1rem 0.9rem; /* Adjusted from 1.25rem 0.9375rem to reduce slightly, within original range */
+  --footer-cta-padding-1025: 1.1rem 0.9rem;
   --button-width-768: 53%;
-  --button-padding-768: 1.1rem 0.9rem; /* Adjusted from 1.2rem 1rem to reduce slightly, within original range */
+  --button-padding-768: 1.1rem 0.9rem;
   --footer-cta-width-768: 75%;
-  --footer-cta-padding-768: 1.1rem 0.9rem; /* Adjusted from 1.25rem 0.9375rem to reduce slightly, within original range */
+  --footer-cta-padding-768: 1.1rem 0.9rem;
   --button-width-480: 100%;
-  --button-padding-480: 1.1rem 0.75rem; /* Adjusted from 1.2rem 0.75rem to reduce slightly, within original range */
+  --button-padding-480: 1.1rem 0.75rem;
   --footer-cta-width-480: 100%;
-  --footer-cta-padding-480: 1rem 0.75rem; /* Kept as is, no reduction needed */
+  --footer-cta-padding-480: 1rem 0.75rem;
   --button-width-400: 100%;
-  --button-padding-400: 1rem 0.8rem; /* Kept as is, no reduction needed */
+  --button-padding-400: 1rem 0.8rem;
   --footer-cta-width-400: 100%;
-  --footer-cta-padding-400: 0.9rem 0.9rem; /* Kept as is, no reduction needed */
+  --footer-cta-padding-400: 0.9rem 0.9rem;
 }
 
 /* ====================================
